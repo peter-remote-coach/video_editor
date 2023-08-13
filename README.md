@@ -1,13 +1,13 @@
 # Flutter video editor
 
-[![Pub](https://img.shields.io/pub/v/video_editor.svg)](https://pub.dev/packages/video_editor)
-[![GitHub stars](https://img.shields.io/github/stars/LeGoffMael/video_editor?style=social)](https://github.com/LeGoffMael/video_editor/stargazers)
+[![Pub](https://img.shields.io/pub/v/video_editor_remote_coach.svg)](https://pub.dev/packages/video_editor_remote_coach)
+[![GitHub stars](https://img.shields.io/github/stars/LeGoffMael/video_editor_remote_coach?style=social)](https://github.com/LeGoffMael/video_editor_remote_coach/stargazers)
 
 A video editor that allows to edit (trim, crop, rotate and scale) and choose a cover with a very flexible UI design.
 
 The library provides some tools to execute the exportation but does not handle it.
 
-This library is written in Dart only but uses external packages such as [video_thumbnail](https://pub.dev/packages/video_thumbnail), which makes it available only on iOS and Android plaforms for now ([web support is currently in progress](https://github.com/LeGoffMael/video_editor/pull/147)).
+This library is written in Dart only but uses external packages such as [video_thumbnail](https://pub.dev/packages/video_thumbnail), which makes it available only on iOS and Android plaforms for now ([web support is currently in progress](https://github.com/LeGoffMael/video_editor_remote_coach/pull/147)).
 
 > **Note**
 > If you use a version between (1.2.3 and 2.4.0) your project might be subject to a GPL license.
@@ -16,17 +16,17 @@ This library is written in Dart only but uses external packages such as [video_t
 
 Following steps will help you add this library as a dependency in your flutter project.
 
-- Run `flutter pub add video_editor`, or add video_editor to `pubspec.yaml` file manually.
+- Run `flutter pub add video_editor_remote_coach`, or add video_editor_remote_coach to `pubspec.yaml` file manually.
 
 ```yaml
 dependencies:
-  video_editor: ^2.4.0
+  video_editor_remote_coach: ^2.4.0
 ```
 
 - Import the package in your code:
 
 ```dart
-import 'package:video_editor/video_editor.dart';
+import 'package:video_editor_remote_coach/video_editor_remote_coach.dart';
 ```
 
 ## 📸 Screenshots
@@ -96,7 +96,7 @@ Future<void> exportMirroredVideo() async {
 }
 ```
 
-For more details check out the [example](https://github.com/LeGoffMael/video_editor/tree/master/example).
+For more details check out the [example](https://github.com/LeGoffMael/video_editor_remote_coach/tree/master/example).
 
 ### VideoEditorController
 
@@ -288,10 +288,10 @@ Contains all FFmpegVideoEditorConfig parameters.
 
 ### 1. Why was FFmpeg removed from this package ?
 
-Starting from version 3.0.0, the video_editor package no longer includes [ffmpeg_kit_flutter](https://pub.dev/packages/ffmpeg_kit_flutter).
+Starting from version 3.0.0, the video_editor_remote_coach package no longer includes [ffmpeg_kit_flutter](https://pub.dev/packages/ffmpeg_kit_flutter).
 
  - The inclusion of ffmpeg_kit_flutter binary in this package caused numerous issues for users who intended to utilize a different instance of FFmpeg within the same project (#37, #129, #153).
- - Additionally, it came to my attention that the video_editor package may have been mis-licensed and subject to the GPL v3.0 license since version 1.2.3, when it began utilizing the ffmpeg_kit_flutter_min_kit binary.
+ - Additionally, it came to my attention that the video_editor_remote_coach package may have been mis-licensed and subject to the GPL v3.0 license since version 1.2.3, when it began utilizing the ffmpeg_kit_flutter_min_kit binary.
  - Lastly, the FFmpeg package is quite large and significantly increases the app size, which is not ideal for developers seeking to handle exportation in a different way.
 
 ## ✨ Credit

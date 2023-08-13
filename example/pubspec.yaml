@@ -1,5 +1,5 @@
-name: video_editor_example
-description: The example project for the video_editor package.
+name: video_editor_remote_coach_example
+description: The example project for the video_editor_remote_coach package.
 
 publish_to: "none" 
 version: 3.0.0+1
@@ -12,7 +12,7 @@ dependencies:
   flutter:
     sdk: flutter
 
-  video_editor:
+  video_editor_remote_coach:
     path: ../
 
   fraction: ^4.1.4

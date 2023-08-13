@@ -6,7 +6,7 @@
 
    <application
         android:requestLegacyExternalStorage="true"
-        android:label="flutter_video_editor"
+        android:label="flutter_video_editor_remote_coach"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

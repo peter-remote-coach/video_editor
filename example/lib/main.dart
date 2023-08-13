@@ -1,11 +1,11 @@
 import 'dart:io';
 
-import 'package:video_editor_example/crop_page.dart';
-import 'package:video_editor_example/export_service.dart';
-import 'package:video_editor_example/widgets/export_result.dart';
+import 'package:video_editor_remote_coach_example/crop_page.dart';
+import 'package:video_editor_remote_coach_example/export_service.dart';
+import 'package:video_editor_remote_coach_example/widgets/export_result.dart';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:video_editor/video_editor.dart';
+import 'package:video_editor_remote_coach/video_editor_remote_coach.dart';
 
 void main() => runApp(
       MaterialApp(
