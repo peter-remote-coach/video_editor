@@ -6,7 +6,7 @@ import 'package:ffmpeg_kit_flutter_min/ffmpeg_kit_config.dart';
 import 'package:ffmpeg_kit_flutter_min/ffmpeg_session.dart';
 import 'package:ffmpeg_kit_flutter_min/return_code.dart';
 import 'package:ffmpeg_kit_flutter_min/statistics.dart';
-import 'package:video_editor_remote_coach/video_editor_remote_coach.dart';
+import 'package:video_editor_remote_coach/video_editor.dart';
 
 class ExportService {
   static Future<void> dispose() async {

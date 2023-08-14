@@ -26,7 +26,8 @@ dependencies:
 - Import the package in your code:
 
 ```dart
-import 'package:video_editor_remote_coach/video_editor_remote_coach.dart';
+import 'package:video_editor/video_editor.dart';
+
 ```
 
 ## 📸 Screenshots

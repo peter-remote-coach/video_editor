@@ -4,8 +4,8 @@ description: |
  A flutter package for editing video with fully customizable UI.
  Supports crop, trim, rotation and cover selection.
  Provides commands to run in order to export the video or cover.
-# repository: https://github.com/LeGoffMael/video_editor
-repository: https://github.com/peter-remote-coach/video_editor_remote_coach.git
+repository: https://github.com/LeGoffMael/video_editor
+# repository: https://github.com/peter-remote-coach/video_editor_remote_coach.git
 
 environment:
   flutter: ">=3.0.0"

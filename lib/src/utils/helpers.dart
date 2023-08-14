@@ -2,7 +2,7 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/physics.dart';
-import 'package:video_editor_remote_coach/video_editor_remote_coach.dart';
+import 'package:video_editor_remote_coach/src/controller.dart';
 
 const kDefaultSelectedColor = Color(0xffffcc00);
 
